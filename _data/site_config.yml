@@ -27,10 +27,10 @@ contrast_type: single
 cookie_consent_form:
   enabled: false
 country:
-  name: Australia
-  adjective: Australian
+  name: Korea
+  adjective: Korean
 create_goals:
-  layout: goal-with-progress
+  layout: goal-by-target-vertical
   previous_next_links: false
   goals: []
 create_indicators:
