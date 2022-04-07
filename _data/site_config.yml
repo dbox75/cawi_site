@@ -39,7 +39,7 @@ create_indicators:
 create_pages:
   - filename: ''
     folder: /
-    layout: frontpage
+    layout: frontpage-alt
     title: ''
   - filename: ''
     folder: /goals
