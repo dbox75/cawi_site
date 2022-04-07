@@ -37,7 +37,7 @@ create_indicators:
   layout: indicator
   previous_next_links: false
 create_pages:
-  - filename: ''
+  - filename: 'frontpage.html'
     folder: /
     layout: frontpage
     title: ''
