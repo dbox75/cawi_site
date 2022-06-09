@@ -118,7 +118,7 @@ frontpage_instructions: ''
 frontpage_introduction_banner:
   title: frontpage.intro_title
   description: frontpage.intro_body
-goal_image_base: 'https://open-sdg.org/sdg-translations/assets/img/goals'
+goal_image_base: 'https://dbox75.github.io/site_test/assets/img/goals/v2'
 goal_image_extension: ''
 goals_page:
   title: general.goals
@@ -242,7 +242,7 @@ reporting_status:
       label: status.not_applicable
       hide_on_goal_pages: false
 repository_url_data: 'https://github.com/dbox75/cawi_data'
-repository_url_site: ''
+repository_url_site: 'https://github.com/dbox75/cawi_site'
 search_index_boost: []
 search_index_extra_fields: []
 series_toggle: true
