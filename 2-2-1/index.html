@@ -3,7 +3,7 @@
     <head>
         <meta charset="utf-8">
         <script src="https://cdnjs.cloudflare.com/ajax/libs/modernizr/2.8.3/modernizr.min.js"></script>
-        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CObject.entries%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
+        <script crossorigin="anonymous" src="https://polyfill.io/v3/polyfill.min.js?features=Promise%2CArray.prototype.forEach%2CString.prototype.includes%2CURLSearchParams%2CCustomEvent%2CArray.prototype.includes%2CArray.prototype.filter%2CArray.prototype.some%2CArray.prototype.find%2CArray.prototype.reduce%2CObject.assign%2CArray.isArray%2CObject.values%2CArray.from%2CSet%2CArray.prototype.findIndex"></script>
 <script crossorigin="anonymous" src="https://cdnjs.cloudflare.com/ajax/libs/javascript-canvas-to-blob/3.15.0/js/canvas-to-blob.min.js"></script>
 
         <script>
@@ -135,12 +135,10 @@ var translations = {
 
 
         
-        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css" crossorigin="">
-        
         <link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.5.0/css/font-awesome.min.css" crossorigin="">
         <link rel="stylesheet" href="https://cdn.datatables.net/fixedcolumns/3.2.3/css/fixedColumns.dataTables.min.css" crossorigin="">
-        <link rel="stylesheet" href="/cawi_site/assets/css/style.css?v=20220719021641">
+        <link rel="stylesheet" href="/cawi_site/assets/css/style.css?v=20220719043346">
         <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
           integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
           crossorigin=""/>
@@ -160,18 +158,15 @@ layout-indicator
 <!-- <div class="container"> -->
 
 
-
 <script>translations['header'] = {"default_contrast":"원래대로","disable_high_contrast":"고대비 불가","disclaimer":"문의사항은 <a href=\"mailto:%email_address\">이메일</a> 부탁 드립니다.","enable_high_contrast":"고대비 가능","high_contrast":"고대비","skip_link":"Skip to main content","tag_line":"17 Goals to Transform our World","toggle_menu":"Menu toggle. Click to expand or collapse the menu.","toggle_search":"Search toggle. Click to expand or collapse the search bar."};</script>
 
 <a class="sr-only sr-only-focusable" id="skiplink" href="#main-content" tabindex="0">Skip to main content</a>
 <div id="disclaimer">
-  
-<div class="container">
+  <div class="container">
   <div class="disclaimer-alert">
     <strong class="phase-tag"></strong>
     
     문의사항은 <a href="mailto:testtest@example.com">이메일</a> 부탁 드립니다.
-    
   </div>
 </div>
 
@@ -372,7 +367,6 @@ data-event-label="high"
 
 
 
-
 <script type="text/template" id="item_template">
   <% _.each(fields, function(fieldItem) { %>
     <div class="variable-selector
@@ -523,7 +517,6 @@ data-event-label="high"
   data-xaxislabel=""
   data-showdata="true"
   data-graphtype="line"
-  data-graphtypes="null"
   data-geocoderegex=""
   data-showmap="false"
   data-startvalues="[{&quot;field&quot;:&quot;지역&quot;,&quot;value&quot;:&quot;수도권&quot;}]"
@@ -674,7 +667,6 @@ data-event-label="Change to Table tab"
           <h4 id="chart-heading" class="chart-title">5세 미만 발육부진 아동 비율(연령 대비 신장이 WHO 아동성장표준 중위신장으로부터 –2표준편차에 미달하는 경우)</h4>
           <div id="chart" class="plot-container">
             
-              
 <canvas
     role="img"
     aria-labelledby="chart-heading"
@@ -723,18 +715,14 @@ opensdg.annotationPresets = {
         borderWidth: 1,
         label: {
             backgroundColor: 'white',
-            
             fontColor: 'black',
-            
         },
         // This "highContrast" overrides colors when in high-contrast mode.
         highContrast: {
             label: {
                 backgroundColor: 'black',
-                
-                fontColor: 'white',
-                
-            },
+                fontColor: 'white'
+            }
         },
         // This callback is used to generate a generic description for screenreaders.
         // This can be overridden to be a more specific string, eg:
@@ -894,7 +882,7 @@ opensdg.chartConfigAlter(function(config, info) {
         options: {
             tooltips: {
                 intersect: false,
-                axis: 'x',
+                axis: 'x'
             },
         },
         plugins: [{
@@ -924,7 +912,6 @@ opensdg.chartConfigAlter(function(config, info) {
 });
 </script>
 
-            
           </div>
           <div id="plotLegend"></div>
           
@@ -938,35 +925,15 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
 
-        <dt class="data-controlled-footer-field unit-from-data">세부지표:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
+        
+        <dt>세부지표:</dt>
+        <dd>건/백만명</dd>
         
 
         
 
         
 
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >주석:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >데이터 갱신 이력:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
         
     <dl>
 </div>
@@ -976,8 +943,8 @@ opensdg.chartConfigAlter(function(config, info) {
       <div id="chartSelectionDownload" class="clearfix">
         <button id="btnSave" title="그래프 이미지 내려받기" class='btn btn-primary btn-download'>
           그래프 이미지 내려받기
-        </button><!-- 
-   --></div>
+        </button>
+      </div>
     </div>
 
 
@@ -1003,35 +970,15 @@ opensdg.chartConfigAlter(function(config, info) {
 
         
 
-        <dt class="data-controlled-footer-field unit-from-data">세부지표:</dt>
-        <dd class="data-controlled-footer-field unit-from-data"></dd>
-
+        
+        <dt>세부지표:</dt>
+        <dd>건/백만명</dd>
         
 
         
 
         
 
-        
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        >주석:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="COMMENT_TS"
-        ></dd>
-        
-        <dt
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        >데이터 갱신 이력:</dt>
-        <dd
-          class="data-controlled-footer-field"
-          data-ts-attribute="DATA_LAST_UPDATE"
-        ></dd>
-        
         
     <dl>
 </div>
@@ -1597,7 +1544,6 @@ data-event-label="Change to indicator.sources tab"
 
 </div>
 
-
 <footer role="contentinfo">
   <div class="container">
     <div class="row">
@@ -1632,26 +1578,19 @@ data-event-label="Change to indicator.sources tab"
         </div>
       </div>
     </div>
-    
   </div>
 </footer>
 
 <script src="https://code.jquery.com/jquery-3.4.1.min.js" integrity="sha256-CSXorXvZcTkaix6Yvo6HppcZGetbYMGWSFlBw8HfCJo=" crossorigin="anonymous"></script>
-
 <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/jquery.dataTables.min.js"></script>
 <script src="//cdn.datatables.net/1.10.16/js/dataTables.bootstrap.min.js"></script>
-
 <script src="//cdn.datatables.net/fixedcolumns/3.2.3/js/dataTables.fixedColumns.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.20/lodash.min.js" integrity="sha512-90vH1Z83AJY9DmlWa8WkjkV79yfS2n2Oxhsi2dZbIv0nC4E6m5AbH8Nh156kkM7JePmqD6tcZsfad1ueoaovww==" crossorigin="anonymous"></script>
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/Chart.js/2.9.3/Chart.bundle.min.js"></script>
-
 <script src="https://cdn.jsdelivr.net/npm/patternomaly@1.3.2/dist/patternomaly.js"></script>
 
-
 <script src="//cdnjs.cloudflare.com/ajax/libs/chartjs-plugin-annotation/0.5.7/chartjs-plugin-annotation.min.js" integrity="sha512-9hzM/Gfa9KP1hSBlq3/zyNF/dfbcjAYwUTBWYX+xi8fzfAPHL3ILwS1ci0CTVeuXTGkRAWgRMZZwtSNV7P+nfw==" crossorigin="anonymous"></script>
-
 
 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/autotrack/2.4.1/autotrack.js"></script>
@@ -1670,14 +1609,80 @@ data-event-label="Change to indicator.sources tab"
 <script>translations['search'] = translations['search'] || {};
     translations['search']['search'] = '검색';</script>
 
-<script src='/cawi_site/assets/js/sdg.js?v=20220719021641'></script>
+<script src='/cawi_site/assets/js/sdg.js?v=20220719043346'></script>
 
 
     
     
-    <script src="/cawi_site/assets/js/custom.js?v=20220719021641"></script><script>
-    new indicatorInit();
-    new accessibilitySwitcher();
+    <script src="/cawi_site/assets/js/custom.js?v=20220719043346"></script><script>
+$(function() {
+    if($('#indicatorData').length) {
+      var domData = $('#indicatorData').data();
+
+      if (domData.showdata) {
+
+        $('.async-loading').each(function(i, obj) {
+            $(obj).append($('<img />').attr('src', $(obj).data('img')).attr('alt', translations.indicator.loading));
+        });
+
+        var remoteUrl = '/comb/' + domData.id + '.json';
+        if (opensdg.remoteDataBaseUrl !== '/') {
+          remoteUrl = opensdg.remoteDataBaseUrl + remoteUrl;
+        }
+
+        $.ajax({
+          url: remoteUrl,
+          success: function(res) {
+
+            $('.async-loading').remove();
+            $('.async-loaded').show();
+
+            var model = new indicatorModel({
+              data: res.data,
+              edgesData: res.edges,
+              showMap: domData.showmap,
+              country: domData.country,
+              indicatorId: domData.indicatorid,
+              shortIndicatorId: domData.id,
+              chartTitle: domData.charttitle,
+              chartTitles: domData.charttitles,
+              measurementUnit: domData.measurementunit,
+              xAxisLabel: domData.xaxislabel,
+              showData: domData.showdata,
+              graphType: domData.graphtype,
+              startValues: domData.startvalues,
+              graphLimits: domData.graphlimits,
+              stackedDisaggregation: domData.stackeddisaggregation,
+              graphAnnotations: domData.graphannotations,
+              graphTargetLines: domData.graphtargetlines,
+              graphSeriesBreaks: domData.graphseriesbreaks,
+              indicatorDownloads: domData.indicatordownloads,
+              dataSchema: domData.dataschema,
+              compositeBreakdownLabel: domData.compositebreakdownlabel,
+              precision: domData.precision,
+            }),
+            view  = new indicatorView(model, {
+              rootElement: '#indicatorData',
+              legendElement: '#plotLegend',
+              decimalSeparator: '',
+              maxChartHeight: 420,
+              tableColumnDefs: [
+                { maxCharCount: 25 }, // nowrap
+                { maxCharCount: 35, width: 200 },
+                { maxCharCount: Infinity, width: 250 }
+              ]
+            }),
+            controller = new indicatorController(model, view);
+            controller.initialise();
+          }
+        });
+      }
+    }
+
+    var switcher = new accessibilitySwitcher();
+
+
+});
 </script>
 
 
