@@ -73,8 +73,8 @@ email_contacts:
   questions: test@example.com
   suggestions: testtest@example.com
   functional: testteset@example.com
-#environment: staging
-environment: ''
+environment: staging
+#environment: ''
 favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
@@ -235,7 +235,7 @@ reporting_status:
   status_types:
     - value: notstarted
       label: status.exploring_data_sources
-      hide_on_goal_pages: false
+      hide_on_goal_pages: true
     - value: complete
       label: status.reported_online
       hide_on_goal_pages: false
