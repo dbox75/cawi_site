@@ -5,7 +5,7 @@ analytics:
   gtag: ''
   gtm: ''
   ga_prod: ''
-bootstrap_5: true
+bootstrap_5: false
 breadcrumbs:
   goal:
     - path: /
@@ -22,7 +22,7 @@ breadcrumbs:
       label: general.home
     - path: /news
       label: menu.updates
-chartjs_3: true
+chartjs_3: false
 contrast_type: single
 cookie_consent_form:
   enabled: false
@@ -73,7 +73,8 @@ email_contacts:
   questions: test@example.com
   suggestions: testtest@example.com
   functional: testteset@example.com
-environment: staging
+#environment: staging
+environment: ''
 favicons: favicon.io
 footer_language_toggle: none
 footer_menu:
