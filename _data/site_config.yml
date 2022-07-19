@@ -70,7 +70,7 @@ disclaimer:
   message: ''
   hidden: false
 email_contacts:
-  questions: test@example.com
+  questions: testtest@example.com
   suggestions: testtest@example.com
   functional: testteset@example.com
 environment: staging
